@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --bg: #fdf1f6;
+  --bg: #fffcf0;
   --surface: #ffffff;
-  --surface-tint: #fbe4ee;
-  --text: #4a3142;
-  --text-muted: #9c7f95;
-  --text-faint: #c3a6b8;
-  --border: #f3d9e6;
+  --surface-tint: #fbf1cf;
+  --text: #4a4020;
+  --text-muted: #a2916a;
+  --text-faint: #cbbb8a;
+  --border: #f0e2ab;
 
-  --accent: #f0a8c9;
-  --accent-strong: #e181ae;
-  --accent-soft: #fbe1ec;
-  --accent-track: #f8e0ea;
+  --accent: #f0d878;
+  --accent-strong: #d4a017;
+  --accent-soft: #faf0cd;
+  --accent-track: #f6e6ab;
 
   --font-heading: "Poppins", "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
@@ -21,7 +21,7 @@
   --radius-md: 12px;
   --radius-lg: 22px;
 
-  --shadow-lg: 0 24px 50px rgba(224, 129, 174, 0.28), 0 0 0 1px rgba(240, 168, 201, 0.25);
+  --shadow-lg: 0 24px 50px rgba(212, 160, 23, 0.25), 0 0 0 1px rgba(240, 216, 120, 0.35);
 }
 
 * { box-sizing: border-box; }
@@ -30,7 +30,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   color: var(--text);
-  background: radial-gradient(circle at 30% 20%, #ffe0ec, #fdf1f6 70%);
+  background: radial-gradient(circle at 30% 20%, #fff3c4, #fffcf0 70%);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -86,10 +86,10 @@ button { font-family: inherit; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
 .btn-primary {
   background: var(--accent-strong); color: #fff;
-  box-shadow: 0 8px 18px rgba(225, 129, 174, .35);
+  box-shadow: 0 8px 18px rgba(212, 160, 23, .35);
 }
-.btn-primary:hover:not(:disabled) { background: #d66fa0; }
-.btn-primary:active:not(:disabled) { background: #c85f92; }
+.btn-primary:hover:not(:disabled) { background: #bf8f14; }
+.btn-primary:active:not(:disabled) { background: #a87e11; }
 .btn-block { width: 100%; margin-top: 12px; }
 
 /* — onboarding — */
